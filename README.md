@@ -1,5 +1,5 @@
 # smb-usermap-destroyer
-Smb Usermap Destoyer is a python2 exploit for CVE-2007-2447 ( 'Username' map script Command Execution ).
+Smb Usermap Destoyer is a python2 exploit for 𝗖𝗩𝗘-𝟮𝟬𝟬𝟳-𝟮𝟰𝟰𝟳 ('𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲' 𝗺𝗮𝗽 𝘀𝗰𝗿𝗶𝗽𝘁 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗘𝘅𝗲𝗰𝘂𝘁𝗶𝗼𝗻).
 I created my own python script to automate the attack and avoid the exploitation with msfconsole.
 
 Before use the exploit install the following requirements:
