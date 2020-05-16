@@ -7,7 +7,7 @@ I created my own python script to automate the attack and avoid the exploitation
 This module exploits a command execution vulnerability in Samba versions 3.0.20 through 3.0.25rc3 when using the non-default "username map script" configuration option. By specifying a username containing shell meta characters, attackers can execute arbitrary commands. No authentication is needed to exploit this vulnerability since this option is used to map usernames prior to authentication! (source: https://www.rapid7.com/db/modules/exploit/multi/samba/usermap_script).
 
 
-Before use the exploit install the following requirements:
+𝗕𝗲𝗳𝗼𝗿𝗲 𝘂𝘀𝗲 𝘁𝗵𝗲 𝗲𝘅𝗽𝗹𝗼𝗶𝘁 𝗶𝗻𝘀𝘁𝗮𝗹𝗹 𝘁𝗵𝗲 𝗳𝗼𝗹𝗹𝗼𝘄𝗶𝗻𝗴 𝗿𝗲𝗾𝘂𝗶𝗿𝗲𝗺𝗲𝗻𝘁𝘀:
 
 ➡ Install python2:
     apt install python
@@ -17,8 +17,9 @@ Before use the exploit install the following requirements:
 
 ➡ Install with pip the pysmb implementation:
     pip install --user pysmb
-        
-Shellcode generation and configuration:
+
+
+𝗦𝗵𝗲𝗹𝗹𝗰𝗼𝗱𝗲 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝗼𝗻 𝗮𝗻𝗱 𝗰𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝘁𝗶𝗼𝗻:
 
 • Create your own Shellcode with your host and port:
     
